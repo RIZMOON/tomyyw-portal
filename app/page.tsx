@@ -184,7 +184,7 @@ export default function Home() {
             <span className="h-2 w-2 rounded-full bg-cyan-500 shadow-[0_0_0_5px_rgba(6,182,212,.12)]" />
             EXPERTISE × AI × BUILDING
           </div>
-          <h1 className="max-w-4xl text-[clamp(3.55rem,7.2vw,7.1rem)] font-semibold leading-[.93] tracking-[-.07em] text-[#10213a]">
+          <h1 className="max-w-3xl text-[clamp(3rem,5.8vw,5.75rem)] font-semibold leading-[.98] tracking-[-.055em] text-[#10213a]">
             让专业判断，<br />
             <span className="bg-gradient-to-r from-cyan-500 via-blue-600 to-violet-600 bg-clip-text text-transparent">成为可运行的系统。</span>
           </h1>

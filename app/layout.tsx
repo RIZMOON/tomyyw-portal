@@ -31,6 +31,12 @@ export const metadata: Metadata = {
     description: '专业判断 × AI 方法 × 可运行系统',
     images: ['/og.png'],
   },
+  robots: {
+    index: false,
+    follow: false,
+    noarchive: true,
+    nosnippet: true,
+  },
 };
 
 export default function RootLayout({
