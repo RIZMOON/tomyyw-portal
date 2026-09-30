@@ -31,8 +31,8 @@ const practiceProjects = [
     title: '估值 × AI 能力测评中心',
     subtitle: '专业能力与 Agent 工作方式测评',
     description: '通过结构化案例同时观察估值判断、数据处理、AI 协作、可复现性与结果答辩能力。',
-    href: 'https://test.tomyyw.com',
-    domain: 'test.tomyyw.com',
+    href: 'https://test.xquant.tomyyw.com/',
+    domain: 'test.xquant.tomyyw.com',
     tag: '人才测评',
   },
   {

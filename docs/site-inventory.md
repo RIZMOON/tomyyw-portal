@@ -18,7 +18,7 @@
 - `xquant.tomyyw.com`：AI、估值与审计专业服务。
 - `crosscheck.tomyyw.com`：A/H 双市场信披发布前差异核验与发布控制。
 - `iri.tomyyw.com`：投资者问答情报工作台，登录后使用。
-- `test.tomyyw.com`：估值与 AI 综合能力测评中心。
+- `test.xquant.tomyyw.com`：估值与 AI 综合能力测评中心。
 - `ai-am.tomyyw.com`：资产管理与财富管理 AI 监管观点微站。
 
 ### 企业 AI 赋能
