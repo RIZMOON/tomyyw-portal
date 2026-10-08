@@ -44,6 +44,15 @@ const practiceProjects = [
     domain: 'ai-am.tomyyw.com',
     tag: '专业洞见',
   },
+  {
+    number: '06',
+    title: 'AFRC 审计与估值问答',
+    subtitle: '市场法 · 监管关注 · Best Practice',
+    description: '以问答梳理非上市股权市场法、AFRC 监管关注与行业最佳实践，连接估值判断、审计证据与披露要求。',
+    href: 'https://afrc.audit.tomyyw.com/',
+    domain: 'afrc.audit.tomyyw.com',
+    tag: '监管与估值',
+  },
 ];
 
 const trainingProjects = [
@@ -204,9 +213,9 @@ export default function Home() {
               <span>CAPABILITY MAP</span><span>2026 / LIVE</span>
             </div>
             {[
-              ['01', '专业实践', '估值 · 审计 · 监管 · 人才', '#06b6d4', '#ecfeff', '5'],
-              ['02', '企业 AI 赋能', '培训 · 场景 · Skill · 工作流', '#2563eb', '#eff6ff', '8'],
-              ['03', '产品探索', '金融 Agent OS · 产品演示', '#7c3aed', '#f5f3ff', '3'],
+              ['01', '专业实践', '估值 · 审计 · 监管 · 人才', '#06b6d4', '#ecfeff', String(practiceProjects.length)],
+              ['02', '企业 AI 赋能', '培训 · 场景 · Skill · 工作流', '#2563eb', '#eff6ff', String(trainingProjects.length)],
+              ['03', '产品探索', '金融 Agent OS · 产品演示', '#7c3aed', '#f5f3ff', String(productProjects.length)],
             ].map(([number, title, detail, color, background, count]) => (
               <a key={number} href={number === '01' ? '#practice' : number === '02' ? '#training' : '#product'} className="group mb-3 grid grid-cols-[48px_1fr_auto] items-center gap-4 rounded-[23px] border border-slate-100 bg-white p-5 transition hover:-translate-y-0.5 hover:shadow-[0_15px_35px_rgba(15,23,42,.08)] last:mb-0">
                 <span className="grid h-12 w-12 place-items-center rounded-2xl font-mono text-xs font-bold" style={{ color, background }}>{number}</span>

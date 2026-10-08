@@ -20,6 +20,7 @@
 - `iri.tomyyw.com`：投资者问答情报工作台，登录后使用。
 - `test.xquant.tomyyw.com`：估值与 AI 综合能力测评中心。
 - `ai-am.tomyyw.com`：资产管理与财富管理 AI 监管观点微站。
+- `afrc.audit.tomyyw.com`：AFRC 审计与估值问答，聚焦非上市股权市场法、监管关注与行业最佳实践（2026-10-08 新增）。
 
 ### 企业 AI 赋能
 
