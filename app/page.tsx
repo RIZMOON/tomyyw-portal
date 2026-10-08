@@ -182,8 +182,9 @@ export default function Home() {
           <a className="transition hover:text-cyan-700" href="#practice">专业实践</a>
           <a className="transition hover:text-cyan-700" href="#training">AI 赋能</a>
           <a className="transition hover:text-violet-700" href="#product">产品探索</a>
+          <a className="transition hover:text-cyan-700" href="/library">内容中枢</a>
         </div>
-        <a href="#map" className="rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium shadow-sm transition hover:border-cyan-300 hover:text-cyan-700">浏览全部项目</a>
+        <a href="/library" className="rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-medium shadow-sm transition hover:border-cyan-300 hover:text-cyan-700">浏览内容中枢</a>
       </nav>
 
       <section className="relative mx-auto grid min-h-[690px] w-full max-w-[1280px] items-center gap-14 px-6 pb-24 pt-16 lg:grid-cols-[1.12fr_.88fr] lg:px-10 lg:pt-20">
@@ -201,6 +202,7 @@ export default function Home() {
             汇集 Tom Wang 在估值、审计、企业 AI 赋能与金融 Agent 产品方向的公开实践。这里不是作品列表，而是一张从专业方法到可用产品的能力地图。
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
+            <a href="/library" className="rounded-full border border-cyan-200 bg-cyan-50 px-6 py-3.5 text-sm font-semibold text-cyan-900 transition hover:-translate-y-0.5">项目与资料索引 ↗</a>
             <a href="#map" className="rounded-full bg-[#10213a] px-6 py-3.5 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(16,33,58,.18)] transition hover:-translate-y-0.5">进入能力地图 ↓</a>
             <a href="https://www.rizmoon.ai" target="_blank" rel="noreferrer" className="rounded-full border border-slate-200 bg-white px-6 py-3.5 text-sm font-semibold text-[#10213a] transition hover:-translate-y-0.5 hover:border-violet-300">探索 RizMoon ↗</a>
           </div>

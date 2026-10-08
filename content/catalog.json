@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-08T04:11:34.265Z",
+  "sourceRevision": "cb1499f950f42b27f85e205e7eb6653d8dd964d0b752610b419fdf28fbd1e6bc",
+  "sourceRepository": "https://github.com/RIZMOON/content-hub",
+  "categories": [
+    {
+      "id": "practice",
+      "label": "专业工具与研究",
+      "description": "估值、审计、治理、披露与能力评估"
+    },
+    {
+      "id": "learning",
+      "label": "学习与培训",
+      "description": "课程、案例、学习卡片与团队赋能"
+    },
+    {
+      "id": "product",
+      "label": "产品与品牌",
+      "description": "RizMoon 产品、演示与专业门户"
+    },
+    {
+      "id": "knowledge",
+      "label": "方法与工作流",
+      "description": "可复用 Skills、AI 工作约定与内容导航"
+    },
+    {
+      "id": "reference",
+      "label": "参考代码",
+      "description": "外部 fork 与技术研究，不作为本人原创成果"
+    }
+  ],
+  "projects": [
+    {
+      "id": "codex-dev-knowledge",
+      "title": "可迁移 AI 工作方法库",
+      "summary": "已整理的非敏感专业 Skills、协作约定与操作指南，用于跨电脑和跨 AI 复用工作方法。",
+      "category": "knowledge",
+      "tags": [
+        "Skills",
+        "工作流",
+        "专业方法"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/codex-dev-knowledge",
+      "website": null,
+      "branch": "main",
+      "entrypoints": [
+        "README.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "content-hub",
+      "title": "Tom 内容中枢",
+      "summary": "项目分类、来源索引与跨 AI 使用指南；从这里定位各仓库的权威文件。",
+      "category": "knowledge",
+      "tags": [
+        "内容索引",
+        "AI入口",
+        "来源路由"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/content-hub",
+      "website": "https://tomyyw.com/library",
+      "branch": "main",
+      "entrypoints": [
+        "README.md",
+        "AI_START_HERE.md",
+        "AGENTS.md",
+        "catalog/projects.json",
+        "docs/CONTENT_POLICY.md"
+      ]
+    },
+    {
+      "id": "ai-agent-training-site",
+      "title": "AI Agent 学习卡片",
+      "summary": "通过模块化卡片介绍智能体概念、工程方法与落地边界。",
+      "category": "learning",
+      "tags": [
+        "Agent",
+        "学习卡片",
+        "入门"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/ai-agent-training-site",
+      "website": "https://ai-agent-training-site.vercel.app",
+      "branch": "main",
+      "entrypoints": []
+    },
+    {
+      "id": "finance-ai-training-site",
+      "title": "财务团队 AI 实训",
+      "summary": "中英文财务团队 AI 实训介绍；与其他行业版本分别维护，不按相似文案自动合并。",
+      "category": "learning",
+      "tags": [
+        "财务",
+        "双语",
+        "AI实训"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "public",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/finance-ai-training-site",
+      "website": "https://finance-ai-training-site.vercel.app",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "fund-ai-training-site",
+      "title": "基金财务与风控 AI 实训",
+      "summary": "基金财务运营与风控场景的 AI 实训介绍。",
+      "category": "learning",
+      "tags": [
+        "基金",
+        "风控",
+        "AI实训"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "public",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/fund-ai-training-site",
+      "website": null,
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "training",
+      "title": "企业 AI 定制培训",
+      "summary": "企业 AI 培训方案、工作坊与工作方法的总体入口。",
+      "category": "learning",
+      "tags": [
+        "培训",
+        "案例",
+        "工作坊"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/training",
+      "website": "https://training.tomyyw.com",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "afrc-audit-site",
+      "title": "AFRC 审计与估值问答",
+      "summary": "非上市股权市场法、监管关注和最佳实践的来源化问答站。",
+      "category": "practice",
+      "tags": [
+        "监管",
+        "估值",
+        "问答"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/afrc-audit-site",
+      "website": "https://afrc.audit.tomyyw.com/",
+      "branch": "main",
+      "entrypoints": [
+        "README.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "ah-crosscheck",
+      "title": "CrossCheck 发布核验",
+      "summary": "A/H 双市场披露文件的差异核验、异常跟踪与发布控制工具。",
+      "category": "practice",
+      "tags": [
+        "信息披露",
+        "核验",
+        "审计科技"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/ah-crosscheck",
+      "website": "https://crosscheck.tomyyw.com",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "ai-am-wealth",
+      "title": "AI × 资管与财富管理",
+      "summary": "资产管理、财富管理与 AI 监管框架的专题内容站。",
+      "category": "practice",
+      "tags": [
+        "资产管理",
+        "财富管理",
+        "AI监管"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/ai-am-wealth",
+      "website": "https://ai-am.tomyyw.com",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "aigovernance",
+      "title": "AI 治理评估工具",
+      "summary": "AI 治理成熟度评估工具的项目入口。",
+      "category": "practice",
+      "tags": [
+        "AI治理",
+        "成熟度",
+        "评估"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/aigovernance",
+      "website": "https://aigovernance-beryl.vercel.app",
+      "branch": "main",
+      "entrypoints": []
+    },
+    {
+      "id": "iri",
+      "title": "IR Intelligence 工作台",
+      "summary": "投资者关系问答、同业信息与来源整理的智能工作台。",
+      "category": "practice",
+      "tags": [
+        "IR",
+        "问答",
+        "情报"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/iri",
+      "website": "https://iri.tomyyw.com",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "maple",
+      "title": "MAPLE 历史仓库入口",
+      "summary": "保留的早期 MAPLE 仓库；继续开发前先核对与主项目的版本和用途，不据名称认定可合并。",
+      "category": "practice",
+      "tags": [
+        "MAPLE",
+        "历史入口"
+      ],
+      "role": "legacy",
+      "relatedTo": "model-audit-platform",
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/maple",
+      "website": null,
+      "branch": "main",
+      "entrypoints": []
+    },
+    {
+      "id": "model-audit-platform",
+      "title": "MAPLE 模型审计平台",
+      "summary": "模型审计与估值工作流的主项目；确定性计算、证据结构与 AI 辅助环节按项目文档维护。",
+      "category": "practice",
+      "tags": [
+        "MAPLE",
+        "估值",
+        "模型审计"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/model-audit-platform",
+      "website": null,
+      "branch": "main",
+      "entrypoints": [
+        "AGENTS.md",
+        "CLAUDE.md"
+      ]
+    },
+    {
+      "id": "valuation-ai-assessment",
+      "title": "估值 × AI 能力测评",
+      "summary": "围绕结构化案例评估估值判断、AI 协作、数据处理与可复现性。",
+      "category": "practice",
+      "tags": [
+        "测评",
+        "估值",
+        "AI协作"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/valuation-ai-assessment",
+      "website": "https://test.xquant.tomyyw.com/",
+      "branch": "main",
+      "entrypoints": []
+    },
+    {
+      "id": "xquant-team-site",
+      "title": "XQuant 专业实践",
+      "summary": "AI、估值与审计专业服务的介绍及实践入口。",
+      "category": "practice",
+      "tags": [
+        "估值",
+        "审计",
+        "专业服务"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/xquant-team-site",
+      "website": "https://xquant.tomyyw.com",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "rizmoon-demo",
+      "title": "Finance Agent OS 演示",
+      "summary": "金融智能体、Skills 与工作流编排的交互式产品演示。",
+      "category": "product",
+      "tags": [
+        "RizMoon",
+        "演示",
+        "工作流"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/rizmoon-demo",
+      "website": "https://app.rizmoon.ai",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "rizmoon-investor",
+      "title": "RizMoon 产品计划",
+      "summary": "面向产品与商业模式讨论的展示入口；具体内容沿用原站访问权限。",
+      "category": "product",
+      "tags": [
+        "RizMoon",
+        "产品计划"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/rizmoon-investor",
+      "website": "https://bp.rizmoon.ai",
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "rizmoon-main",
+      "title": "RizMoon 产品主站",
+      "summary": "金融 Agent OS 的产品定位、能力与使用场景介绍。",
+      "category": "product",
+      "tags": [
+        "RizMoon",
+        "Agent OS",
+        "产品"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "private",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/rizmoon-main",
+      "website": "https://www.rizmoon.ai",
+      "branch": "main",
+      "entrypoints": []
+    },
+    {
+      "id": "tomyyw-portal",
+      "title": "Tom Wang 介绍门户",
+      "summary": "专业实践、企业 AI 赋能、产品探索与内容索引的统一门户。",
+      "category": "product",
+      "tags": [
+        "门户",
+        "导航",
+        "个人品牌"
+      ],
+      "role": "primary",
+      "relatedTo": null,
+      "visibility": "public",
+      "fork": false,
+      "repository": "https://github.com/RIZMOON/tomyyw-portal",
+      "website": "https://tomyyw.com",
+      "branch": "main",
+      "entrypoints": [
+        "README.md",
+        "docs/site-inventory.md"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "title": "Claude Code 上游参考",
+      "summary": "外部项目的 fork，用于技术学习；不属于本人原创产品。",
+      "category": "reference",
+      "tags": [
+        "fork",
+        "Claude Code",
+        "参考"
+      ],
+      "role": "reference",
+      "relatedTo": null,
+      "visibility": "public",
+      "fork": true,
+      "repository": "https://github.com/RIZMOON/claude-code",
+      "website": null,
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    },
+    {
+      "id": "claude-code-rev",
+      "title": "Claude Code 源码研究参考",
+      "summary": "外部参考代码 fork；使用前核对上游来源、许可与适用边界。",
+      "category": "reference",
+      "tags": [
+        "fork",
+        "源码研究"
+      ],
+      "role": "reference",
+      "relatedTo": null,
+      "visibility": "public",
+      "fork": true,
+      "repository": "https://github.com/RIZMOON/claude-code-rev",
+      "website": null,
+      "branch": "main",
+      "entrypoints": [
+        "README.md",
+        "AGENTS.md"
+      ]
+    },
+    {
+      "id": "claude-code-sourcemap",
+      "title": "Claude Code Source Map 参考",
+      "summary": "外部技术研究 fork；作为参考资料单独分类，不纳入原创成果。",
+      "category": "reference",
+      "tags": [
+        "fork",
+        "source map"
+      ],
+      "role": "reference",
+      "relatedTo": null,
+      "visibility": "public",
+      "fork": true,
+      "repository": "https://github.com/RIZMOON/claude-code-sourcemap",
+      "website": null,
+      "branch": "main",
+      "entrypoints": [
+        "README.md"
+      ]
+    }
+  ]
+}

@@ -9,6 +9,13 @@
 - 专业实践：估值、审计、监管、信息披露、投资者关系与人才测评。
 - 企业 AI 赋能：定制培训、行业实训、Agent 学习与 Skill 沉淀。
 - 产品探索：RizMoon 主站、金融 Agent OS 演示与商业计划。
+- 内容中枢 `/library`：分类、检索、源仓库链接与跨 AI 使用指令；网页使用经过审核的目录投影。
+
+## 内容中枢
+
+完整目录与 AI 工作约定维护在私有 [RIZMOON/content-hub](https://github.com/RIZMOON/content-hub)。本仓库仍为公开源码，不导入私有正文、本机路径或机构特定交付。`content/catalog.json` 由中枢的白名单导出脚本生成，来源 revision 可核对。
+
+`/api/catalog` 与 `/llms.txt` 是机器可读入口，沿用现有门户认证，并在路由处理器中再次核验。门户账号不授予 GitHub 权限。更新投影后须构建、验证、明确提交/部署；没有运行时 GitHub token 或自动抓取私有库。
 
 公开站点的盘点口径与维护记录见 `docs/site-inventory.md`。
 

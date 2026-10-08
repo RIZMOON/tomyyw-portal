@@ -1,0 +1,18 @@
+# Only the production application's reviewed source is uploaded.
+*
+!app
+!app/**
+!content
+!content/catalog.json
+!lib
+!lib/**
+!public
+!public/**
+!package.json
+!package-lock.json
+!proxy.ts
+!tsconfig.json
+!next.config.ts
+!postcss.config.mjs
+!vercel.json
+!eslint.config.mjs
